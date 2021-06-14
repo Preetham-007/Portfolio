@@ -31,12 +31,24 @@ svg{
 .current:hover{
   border: none;
 }
-
-
+.bck{
+  transition-duration: 1s;
+}
+@media screen and (min-width: 1000px){
+  .bck:hover{
+    background-color: black;
+    color: rgb(150, 144, 150);
+    width: 65%;
+  }
+}
 .bck:hover{
   background-color: black;
   color: rgb(150, 144, 150);
 }
+.bck:hover p{
+  font-size: 19px;
+}
 .bck:hover h2{
   color: rgb(76, 0, 255);
+  font-weight: 700;
 }
